@@ -55,6 +55,7 @@ Open the script in RStudio and run it - it automatically sets the working direct
 The output file will be written to the same directory.
 
 ## 🔍 Function: go_enrichment()
+```
 go_enrichment(
   df,               # Dataframe with GO terms and a foreground column
   category_cols,    # Columns containing GO annotations (e.g., starts_with("Gene Ontology"))
@@ -62,7 +63,7 @@ go_enrichment(
   sep = ";\\s*",    # Separator for GO terms, default is ;
   mHA_corr = FALSE  # Apply modified Haldane-Anscombe correction
 )
-
+```
 ### Output columns
 
 | Column | Description |
