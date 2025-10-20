@@ -91,6 +91,7 @@ F. Weber, G. Knapp, K. Ickstadt, G. Kundt, Ä. Glass, *Zero-cell corrections in 
   
 
 ## 🧪 Example Call
+```
 enrichment_result <- go_enrichment(
   go_annotated,
   category_cols = starts_with("Gene Ontology"),
@@ -100,7 +101,7 @@ enrichment_result <- go_enrichment(
 
 enrichment_result %>% 
   write_tsv("enrichment_fisher_test.txt")
-
+```
 ## 🧰 Notes
 
 It is recommended to enable the mHA_corr = TRUE option to avoid infinite odds ratios.
