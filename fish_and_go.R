@@ -124,7 +124,7 @@ enrichment_result <- go_enrichment(
   go_annotated, # The dataframe, with GO terms
   category_cols = starts_with("Gene Ontology"), # This takes several columns, or you just reference a column directly 
   foreground_col = foreground, # Boolean column, TRUE denotes foreground
-  mHA_corr = TRUE # It is recommended to enable this function to apply the modified 
+  mHA_corr = TRUE # It is recommended to enable this function to apply the odds ratio correction
 )
 
 enrichment_result %>% write_tsv(file = "enrichment_fisher_test.txt")
