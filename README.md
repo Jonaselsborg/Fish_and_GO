@@ -1,4 +1,4 @@
-# Gene Set Enrichment Analysis (GSEA) Script
+# GO-enrichment Script
 
 **Author:** Jonas D. Elsborg  
 **Email:** [jonas.elsborg@path.ox.ac.uk](mailto:jonas.elsborg@path.ox.ac.uk)  
@@ -7,7 +7,7 @@
 
 ## Overview
 
-This R script performs **gene set enrichment analysis (GSEA)** using Fisher's exact test on categorical data such as Gene Ontology (GO) annotations.  
+This R script performs **GO term enrichment** using Fisher's exact test on categorical data such as Gene Ontology (GO) annotations.  
 It is designed to work with proteomics or other datasets containing annotated protein groups and a logical column defining a *foreground* (e.g., significantly regulated proteins).
 
 The script:
